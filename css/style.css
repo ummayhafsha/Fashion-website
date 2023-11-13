@@ -1,0 +1,187 @@
+*{
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+}
+.cart-part{
+    margin-left: 40%;
+    padding-bottom: 20px;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: rgb(238, 11, 105);
+}
+.navbar-brand:hover{
+    color:black;
+}
+.nav-item a{
+    margin-right: 15px;
+    margin-left: 15px;
+    color: black;
+    text-transform: uppercase;
+}    
+.nav-item a:hover{
+    color: rgb(238, 11, 105);
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Roboto Slab', serif;
+    border: 2px solid rgb(238, 11, 105);
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(238, 11, 105);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;   
+}
+.main{
+    background: url(../image/fa.jpg)no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.main h1{
+    font-size: 5rem;
+    font-weight: 900;
+}
+.btn2{
+    height: 45px;
+    width: 40%;
+    color: rgb(250, 249, 249);
+    outline: none;
+    border: none;
+    background: rgb(238, 11, 105);
+    font-weight: bold;
+    transition: all 0.45;
+    cursor: pointer;
+}
+.btn2:hover{
+    border: 1px solid rgb(238, 11, 105);
+    background: transparent;
+    color: rgb(238, 11, 105);
+    transition: all 0.4s;
+
+}
+.services h1{
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.6rem;
+}
+.services{
+    background: rgb(246,243,243);
+}
+.btnc{
+    position:relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 53px;
+    width: 30%;
+    color: black;
+    border: none;
+    outline: none;
+    background: rgb(241, 237, 237);
+    cursor: pointer;
+}
+.btnc:hover{
+    background: rgb(238, 11, 105);
+    color:white;
+    transition: all 0.4s;
+}
+.zoom-n-rotate{
+    border-radius: 0;
+    outline: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+.zoom-n-rotate img{
+    transition: transform .5s ease-in-out;
+}
+.zoom-n-rotate:hover img{
+    transform: scale(1.5);
+}
+.product h1{
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.6rem;
+}
+.product{
+    background: rgb(246,243,243);
+
+}
+.m-0{
+    height: 45px;
+    width: 40%;
+    color: rgb(23, 21, 21);
+    outline: none;
+    border: none;
+    background: rgb(240, 236, 238);
+    font-weight: bold;
+    transition: all 0.45;
+    cursor: pointer;
+}
+.m-0:hover{
+    background: rgb(238, 11, 105);
+    color:white;
+    transition: all 0.4s;
+}
+
+/*footer*/
+.news{
+    background: black;
+    font-family: 'prompt' , sans-serif;
+ }
+ 
+ .news a {      
+       color: white;
+       margin : 0;
+       cursor: pionter;
+      transition: all 0.4s;
+ }
+ 
+ .news a:hover {
+     color: rgb(238,11,105);
+     padding-left: 5px;
+    transition: all 0.4s;
+ }
+ .btns{
+    Height:50px;   
+    width: 30%;    
+    border: none;    
+    outline: none;    
+    background: white;    
+    color: rgb(238, 11, 105); 
+    font-weight: bold;
+    }
+ .sub{
+    height:50px;
+    width:70%;
+    background:transparent ;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+
+ }   
+.circle{
+    height: 50px;
+    width :50px;
+    border-radius:50% ;
+    color:white;
+    background:rgb(53,49,49) ;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0,4s;
+}
+.circle:hover{
+    background: white;
+    color:rgb(238,11,105)
+}
